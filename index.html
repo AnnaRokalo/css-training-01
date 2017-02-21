@@ -5,6 +5,8 @@
     <title>Modern Web Site</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans:400,700|Source+Sans+Pro:300,400,700,900" rel="stylesheet">
 </head>
 <body>
@@ -86,11 +88,39 @@
         <h2>Lorem ipsum dolor sit amet</h2>
         <h3>Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis. </h3>
         <div class="page">
-            <div class="portfolio__gallery"></div>
+            <div class="portfolio__gallery-nav">
+                <div class="portfolio__gallery-line"></div>
+                <div class="portfolio__gallery-arrows">
+                    <div class="portfolio__gallery-prev">
+                        <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="portfolio__gallery-next">
+                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="portfolio__gallery-line"></div>
+            </div>
+            <div class="portfolio__gallery">
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+            </div>
             <a href="#" class="portfolio__button">View Portfolio</a>
         </div>
     </section>
     <section></section>
     <footer></footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

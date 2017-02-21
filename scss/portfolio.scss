@@ -17,3 +17,15 @@
   color: #fff;
   cursor: pointer;
 }
+
+.portfolio__gallery-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio__gallery-line {
+  background: #d9d9d9;
+  height: 1px;
+  width: 100%;
+}
