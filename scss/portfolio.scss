@@ -1,0 +1,19 @@
+.portfolio {
+  padding: 56px 0 0 0;
+  text-align: center;
+}
+
+.portfolio__gallery {}
+
+.portfolio__button {
+  display: inline-block;
+  text-decoration: none;
+  background: $secondary-color;
+  border-radius: 5px;
+  padding: 12px 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}

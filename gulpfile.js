@@ -44,7 +44,7 @@ gulp.task('sass', function () {
 
 // Clean css folder, to be sure we are using up to date styles.
 gulp.task('clean-css', function (cb) {
-    return rimraf('./css/*.css', cb);
+    return rimraf('./css/styles.css', cb);
 });
 
 // Watchers.

@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: $primery-color;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  padding: 0;
+}
+
+h3 {
+  color: $primery-color;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 0;
+}
