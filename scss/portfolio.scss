@@ -22,9 +22,13 @@
 }
 
 .portfolio__gallery-img {
+  width: 270px;
+  height: 170px;
   img {
     width: 270px;
     height: 170px;
+    max-width:100%;
+    max-height: 100%;
     border-radius: 5px;
   }
 }
