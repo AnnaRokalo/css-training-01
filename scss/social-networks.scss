@@ -20,7 +20,7 @@
   height: 70px;
   border-radius: 50%;
   background: $secondary-color;
-  color: #fff;
+  color: $contrast-color;
   font-size: 32px;
   text-align: center;
   line-height: 70px;
@@ -28,7 +28,7 @@
 }
 
 .socials__title {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
   color: $primary-color;
@@ -36,8 +36,8 @@
 }
 
 .socials__text {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 14px;
-  color: #b5c7c9;
+  color: $text-color-light;
 }

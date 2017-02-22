@@ -10,10 +10,10 @@
   background: $secondary-color;
   border-radius: 5px;
   padding: 12px 14px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
-  color: #fff;
+  color: $contrast-color;
   cursor: pointer;
 }
 

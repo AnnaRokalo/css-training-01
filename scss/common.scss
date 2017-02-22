@@ -10,16 +10,20 @@
   margin: 0 auto;
 }
 
+section, .footer {
+  min-width: 1180px;
+}
+
 h2 {
   color: $primary-color;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: bold;
   font-size: 34px;
   padding: 0;
 }
 
 h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 22px;
   color: #637f83;
@@ -27,21 +31,21 @@ h3 {
 
 h4 {
   color: $primary-color;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 300;
   font-size: 24px;
 }
 
 h5 {
   color: $primary-color;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
 }
 
 .text {
   color: #959494;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;

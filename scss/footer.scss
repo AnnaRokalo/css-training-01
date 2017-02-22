@@ -2,14 +2,14 @@
   background: $primary-color;
   text-align: center;
   padding:35px 10px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 14px;
-  color: #fff;
+  color: $contrast-color;
   line-height: 24px;
 
   a {
-    color: #fff;
+    color: $contrast-color;
     text-decoration: none;
   }
 }
