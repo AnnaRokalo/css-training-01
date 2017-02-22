@@ -1,10 +1,11 @@
 $(document).ready(function(){
     $('.portfolio__gallery').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        appendArrows: $(".portfolio__gallery-arrows"),
-        nextArrow: $('.portfolio__gallery-prev'),
-        prevArrow: $('.portfolio__gallery-next'),
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        arrows: true,
+        appendArrows: $('.portfolio__gallery-arrows'),
+        nextArrow: '<i class="fa fa-arrow-circle-right portfolio__gallery-next"></i>',
+        prevArrow: '<i class="fa fa-arrow-circle-left portfolio__gallery-prev"></i>',
         dots: false
     });
 });
